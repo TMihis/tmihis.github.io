@@ -1,0 +1,127 @@
+.profile-card {
+    background: #FFFFFF;
+    width: 440px;
+    height: 280px;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-border-radius: 50%;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: content-box;
+}
+
+.profile-card header {
+    width: 179px;
+    height: 280px;
+    padding: 40px 20px 30px 20px;
+    display: inline-block;
+    float: left;
+    border-right: 2px dashed #EEEEEE;
+    background: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    opacity: 1;
+    margin-top: -20px;
+}
+
+.profile-card header h1 {
+    color: #FF5722;
+}
+
+.profile-card header a {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: 25px 30px;
+}
+
+.profile-card header a > img {
+    width: 120px;
+    max-width: 100%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: -webkit-box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    -webkit-box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.profile-card header a:hover > img {
+    -webkit-box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-bio {
+    width: 175px;
+    height: 180px;
+    display: inline-block;
+    float: right;
+    padding: 50px 20px 30px 20px;
+    background: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    opacity: 1;
+    margin-top: -20px;
+}
+
+.profile-social-links {
+    width: 218px;
+    display: inline-block;
+    float: right;
+    padding: 15px 20px;
+    background: #FFFFFF;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 1;
+    margin-top: -20px;
+}
+
+.profile-social-links li {
+    list-style: none;
+    margin: -5px 0 0 0;
+    padding: 0;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.profile-social-links li a {
+    display: inline-block;
+    color: red;
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    position: relative;
+    overflow: hidden!important;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-social-links li a i {
+    position: relative;
+    z-index: 1;
+}
+
+.profile-social-links li a img,
+.profile-social-links li a svg {
+    width: 24px;
+}
+
+.profile-card h1, h2 {
+  font-weight: 500;
+  margin: 0 0 5px 0;
+}
+
+.profile-card h1 {
+  font-size: 20px;
+}
+
+.profile-card h2 {
+  font-size: 16px;
+}
+
+.profile-card p {
+  margin: 0;
+}

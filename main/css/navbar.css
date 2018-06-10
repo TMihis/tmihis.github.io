@@ -1,0 +1,110 @@
+.material {
+  cursor: pointer;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05rem;
+  text-decoration: none !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.material a {
+  text-decoration: none;
+}
+
+/* Remove selection background from Material elements */
+.material::selection {
+  background: none;
+}
+
+/* Material Button and Icon default background */
+nav.material, input[type="button"].material,input[type="submit"].material, .material.button,.material.icon {
+  background-color: #3bad40;
+}
+
+/* remove outline on Material Button click event */
+.material:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Material Button / Icon basic design queues */
+input[type="button"].material, input[type="submit"].material,.material.button,.material.icon {
+  border-width: 0px;
+  color: #FFF;
+  display: inline-block;
+  font-size: 0.8rem;
+  -webkit-transition: ease box-shadow 0.2s linear;
+  -moz-transition: ease box-shadow 0.2s linear;
+  -ms-transition: ease box-shadow 0.2s linear;
+  -o-transition: ease box-shadow 0.2s linear;
+  transition: ease box-shadow 0.2s linear;
+}
+
+/* Material Button structure */
+input[type="button"].material, input[type="submit"].material,.material.button {
+  -webkit-border-radius: 8% !important;
+  -moz-border-radius: 8% !important;
+  border-radius: 8% !important;
+  box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding:  10px 20px;
+  transition: box-shadow ease 0.3s;
+}
+/* Material Button click effect(s) */
+.material.button:active {
+  box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow ease 0.3s;
+}
+
+/* Material Icon structure */
+.material.icon {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  font-size: 1.5rem !important;
+  line-height: 50% !important;
+  padding: 1rem 1rem 1.2rem 1.1rem;
+  transition: box-shadow ease 0.3s;
+}
+/* Material Icon click effect(s) */
+.material.icon:active {
+  box-shadow: 0 9px 5px 1px rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow ease 0.3s;
+}
+
+/*Material button color variations */
+.material.success {
+  background-color: #42D631 !important;
+}
+.material.secondary {
+  background-color: slategray !important;
+}
+.material.alert {
+  background-color: #E02424 !important;
+}
+
+/* Material Nav */
+nav.material {
+  color: #FFF;
+  float: left;
+  width: 100%;
+}
+nav.material a {
+  color: inherit;
+  float: left;
+  line-height: 4rem;
+  padding: 0 12px;
+  text-decoration: none;
+}
+nav.material a:hover {
+  background-color: #339e30;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: all 0.5s linear;
+}

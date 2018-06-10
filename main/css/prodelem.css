@@ -1,0 +1,35 @@
+section.row {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 940px;
+  min-height: 80px;
+  padding: 20px;
+  background: #ececec;
+  border-radius: 5px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  text-align: center;
+}
+
+section.row h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  color: #555;
+}
+
+section.row p {
+  margin: 15px 0 0 0;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-size: 0.95em;
+  color: #888;
+}
+
+section:hover .icon > i{
+  color: #2196F3;
+  border: 8px solid #2196F3;
+}
